@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    border: 0;
+    font-family: kanit;
+}
+
+body{
+    padding:10px;
+}
+
+.container-flex{
+    background-color: #000;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    gap: 10px 20px;
+    
+    /* gap: ROW COLUMN */
+
+
+    /* row-gap: 10px;
+    column-gap: 20px; */
+    /* gap:  */
+    /* align-content: flex-start;
+    align-content: flex-end; */
+    /* align-content: space-between;
+    align-content: space-around;
+    align-content: space-evenly; */
+    /* justify-content: flex-start;
+    justify-content: flex-end; */
+    /* justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; */
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /*  justify-content > alinhamento no eixo principal */
+    /* Deixou o container flexivel */
+    /* espaço entre os itens */
+    /* gap: 20px; */
+    /*flex-direction: row > LINHA  */
+    /* COLUMN > EM COLUNA */
+    /* flex-direction: column; */
+    /* COLUNA REVERSA */
+    /* flex-direction: column-reverse; */
+    /* LINHA REVERSA */
+    /* flex-direction: row-reverse; */
+    
+    
+
+   
+}
+
+
+.order{
+    /* order: 1; */
+    background-color: lightgoldenrodyellow;
+}
+
+.flex-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 50px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+}
+
+.item1{
+    background-color: lightblue;
+    order: 5;
+}
+.item2{
+    background-color: lightgreen;   
+order: 3;
+}
+.item3{
+    background-color: lightcoral;   
+order: 1;
+}  
+.item7{
+    order: 2;
+}
+.item8{
+    order: 2;
+}
+.item9{
+    order: 2;
+}
+.item10{
+    order: 4;
+}
+.item11{
+    order: 4;
+}
+.item12{
+    order: 4;
+}
+
+
+.item4{
+    background-color: lightgoldenrodyellow;    
+    /* order: 2; */
+}
+
+
+    /* order: 1; */
