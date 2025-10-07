@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Tangerine:wght@400;700&display=swap');
+
+:root {
+   --cor-principal: #ff3131;
+   --cor-secundaria: #545454;
+   --cor-terciaria: #737373;
+   --cor-fundo: #F5F5F5;
+   --cor-fundo-escuro: #E0E0E0;
+   --cor-texto-principal: #333333;
+   --cor-texto-secundario: #666666;
+}
+
+* {
+   font-family: Arimo, Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   line-height: 1.75;
+   top:0;   
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   /* list-style: none; */
+   text-decoration: none;
+   color: var(--cor-texto-principal);
+}
+
+body{
+   background-color: var(--cor-fundo-escuro);
+}
+
+.cabecalho{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.menu-navegacao{
+   display: flex;
+   gap: 60px;
+   margin-right: 60px;
+   list-style: none;
+}
+
+main, header, section, footer{
+   background-color: var(--cor-fundo);
+   max-width: 1400px;
+   margin: 0 auto;
+}
+
+header{
+   padding: 2rem;
+   border-bottom: #ff3131 3px solid;
+   position: sticky;
+}
+
+.menu-navegacao a{
+   font-weight: 600;
+   font-size: 1.25rem;
+   border: 1px solid var(--cor-principal);
+   border-radius: 10px;
+   padding: 10px;
+   box-shadow: 2px 2px 5px black;
+   transition: 0.3s;
+}
+
+
+#home   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 70px;
+    background-color: var(--cor-fundo);
+    border-radius: 10px;
+    margin-bottom: 40px;    
+    height: 100vh;
+    
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.destaque {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--cor-principal);
+    font-weight: 600px;
+    max-width: 600px;
+}
+.home-texto{
+
+    text-align: center;
+    max-width: 600px;
+}
+
+h1{
+    color: var(--cor-texto-principal);
+   font-size: 4.5rem;
+   line-height: 1;
+  
+}
+
+.img img{
+   width: 400px;
+   height: auto;
+   
+}
+
+.button{
+   display: flex;
+   align-items: center;
+   margin-top: 40px;
+   background-color: var(--cor-principal);
+   color: white;
+   font-size: 1.25rem;
+   border-radius: 10px;
+   padding: 10px;
+   justify-content: center;
+   width: 10vw;
+
+   transition: background-color 0.3s ease;
+   cursor: pointer;
+}
+
+#sobre{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 70px;
+   padding: 70px;
+   border-top: #ff3131 3px solid;
+   margin-bottom: 40px;  
+   height: 100vh;
+}
+#sobre img{
+   width: 300px;
+   height: auto;
+   border-radius: 50%;
+   box-shadow: 2px 2px 5px black;
+}
+#sobre h1{
+   color: var(--cor-principal);
+}
+
+#lista{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 70px;
+   padding: 70px;
+   border-top: #ff3131 3px solid;
+   margin-bottom: 40px;
+   
+   
+}
+
+#lista img{
+   width: 80%;
+   height: auto;
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px black;
+}
+#lista h1{
+   color: var(--cor-principal);
+}
+ol{
+   list-style: decimal inside;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+#perg{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 70px;
+   padding: 70px;
+   border-top: #ff3131 3px solid;
+   margin-bottom: 40px;
+}
+
+.box-perg{
+   display: flex;
+   align-items: center;
+   gap: 70px;
+}
+#perg img{
+   width: 60%;
+   height: auto;
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px black;
+}
+
+#contato{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 70px;
+   padding: 70px;
+   border-top: #ff3131 3px solid;
+   margin-bottom: 40px;
+}
+.box-contato{
+   display: flex;
+   align-items: center;
+   gap: 70px;
+}
+#contato img{
+   width: 30%;
+   border-radius: 50%;
+   box-shadow: 2px 2px 5px black;
+}
+
+.box-contato form{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   background-color: var(--cor-fundo-escuro);
+   padding: 25px;
+   border-radius: 10px;
+}
+
+footer{
+   border-top: var(--cor-principal) 3px solid;
+   color: white;
+   text-align: center;
+   padding: 1rem;
+   position: relative;
+}
