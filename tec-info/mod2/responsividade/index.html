@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Animes</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <script src="index.js" defer></script>
+</head>
+
+<body id="topo">
+    <header class="cabecalho">
+        <div>
+            <a href="index2.html">
+                <img src="assets/img/MeusAnimes.svg" alt="Meus Animes" class="logo">
+            </a>
+        </div>
+        <nav>
+         <ul class="menu-navegacao">
+            <li><a href="#topo">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#animes">Animes</a></li>
+            <li><a href="#perguntas">Perguntas</a></li>
+            <li><a href="#contato">Contato</a></li>
+         </ul>
+      </nav> 
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="home-texto">
+                <p class="destaque">Tanjiro Kamado</p>
+                <h1>"Torne-se a lâmina mais resistente de todas."</h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos architecto accusamus quia est?
+                    Distinctio
+                    unde eum possimus aliquam nostrum ut eligendi dolor, error, id iste dolores tempora. Natus,
+                    assumenda
+                    facere.
+                    Eum, quidem unde, accusamus aperiam, laudantium modi ex nihil asperiores alias totam iste
+                    perferendis.
+                    Deserunt nulla animi, minus possimus, eveniet non obcaecati quaerat sed quibusdam, repellat nobis
+                    doloremque amet minima?
+                </p>
+                <a href="#animes" class="btn">Favoritos</a>
+            </div>
+
+            <div class="img-tanjiro">
+                <img src="assets/img/Tanjiro_anime_right_face.png" alt="Tanjiro Kamado">
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="img-sobre-mim">
+                <img src="assets/img/desenhoAlex.png" alt="Sobre Mim">
+            </div>
+
+            <div>
+                <h2>Sobre Mim</h2>
+                <p>
+                    Olá! Meu nome é Alexssandro Araújo, desde meus 16 anos que sou um entusiasta de animes. Desde
+                    pequeno,
+                    sempre
+                    fui fascinado
+                    por histórias envolventes e personagens cativantes que os animes proporcionam. Além disso, sou
+                    apaixonado
+                    por tecnologia
+                    e programação, o que me levou a criar este site para compartilhar meus animes favoritos com outros
+                    fãs.
+                    Espero que você goste do conteúdo e se sinta à vontade para entrar em contato comigo!
+                </p>
+                <a href="#contato" class="btn">Entre em Contato</a>
+            </div>
+        </section>
+
+        <section id="animes">
+            <div>
+                <h2>Meus Animes Favoritos</h2>
+                <p class="lista-titulo">Lista de animes que eu gosto:</p>
+                <ul class="lista-animes">
+                    <li>Dragon Ball Z</li>
+                    <li>Demon Slayer</li>
+                    <li>Attack on Titan</li>
+                    <li>My Hero Academia</li>
+                    <li>Death Note</li>
+                    <li>One Piece</li>
+                </ul>
+            </div>
+            <div>
+                <img src="assets/img/animes-favoritos.png" alt="Animes Favoritos" class="img-animes">
+            </div>
+        </section>
+
+        <section id="perguntas">
+            <div>
+                <img src="assets/img/animes-favoritos.png" alt="Animes Favoritos" class="img-animes">
+            </div>
+            <div>
+                <h2>Perguntas e Respostas</h2>
+                <div class="perguntas-respostas">
+                    <details>
+                        <summary>Pergunta 1</summary>
+                        <p>Resposta da pergunta 1</p>
+                    </details>
+                    <details>
+                        <summary>Pergunta 2</summary>
+                        <p>Resposta da pergunta 2</p>
+                    </details>
+                    <details>
+                        <summary>Pergunta 3</summary>
+                        <p>Resposta da pergunta 3</p>
+                    </details>
+                    <details>
+                        <summary>Pergunta 4</summary>
+                        <p>Resposta da pergunta 4</p>
+                    </details>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="contato">
+            <div>
+                <img src="assets/img/telefone.jpg" alt="Telefone" class="img-telefone">
+            </div>
+
+            <div class="contato-form">
+                <h2>Contato</h2>
+                <form action="#" class="formulario">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required placeholder="Digite sua mensagem"></textarea>
+                    <input type="submit" class="btn" value="Enviar">
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Meus Animes</p>
+        <p>Desenvolvido por <span class="desenvolvedor">Alexssandro Araújo</span></p>
+    </footer>
+</body>
+
+</html>
