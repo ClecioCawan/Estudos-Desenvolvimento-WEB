@@ -14,19 +14,32 @@ Este projeto não possui fins comerciais e foi criado apenas **para fins educaci
 
 ## 📸 Demonstração
 
+Catálogo de Páginas Aratec Informática:
+
 <p align="center">
-  <img src="assets/img/sreen1.png" alt="Demonstração do Projeto" width="700"/>
+  <img src="Tecnico_em_informatica/screens/aratec 1.png" alt="Demonstração do Projeto" width="700"/>
 </p>
 <p align="center">
-  <img src="assets/img/screen2.png" alt="Demonstração do Projeto" width="700"/>
-</p>
-<p align="center">
-  <img src="assets/img/screen3.png" alt="Demonstração do Projeto" width="700"/>
+  <img src="Tecnico_em_informatica/screens/aratec1a.png" alt="Demonstração do Projeto" width="700"/>
 </p>
 
 - [Aratec Informática modelo](https://landing-page-aratec-informatica-v3.vercel.app/)
 
+<p align="center">
+  <img src="Tecnico_em_informatica/screens/aratec2.png" alt="Demonstração do Projeto" width="700"/>
+</p>
+<p align="center">
+  <img src="Tecnico_em_informatica/screens/aratec2a.png" alt="Demonstração do Projeto" width="700"/>
+</p>
+
 - [Aratec Informática Primeira Versão](https://landing-page-aratec-informatica-v1-six.vercel.app/)
+
+<p align="center">
+  <img src="Tecnico_em_informatica/screens/aratec3.png" alt="Demonstração do Projeto" width="700"/>
+</p>
+<p align="center">
+  <img src="Tecnico_em_informatica/screens/aratec3a.png" alt="Demonstração do Projeto" width="700"/>
+</p>
 
 - [Aratec Informática Versão Final](https://landing-page-aratec-informatica-v1.vercel.app/)
 
