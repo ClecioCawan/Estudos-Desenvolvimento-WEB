@@ -1,2 +1,53 @@
-# HTML-CSS
-Estudando e aprendendo HTML-CSS na prática, com vários exercicios afim de fixar o conhecimento.
+# Estudos-Desenvolvimento-WEB
+
+## 🌐 Repositório de Estudos — Desenvolvimento Web
+
+> 
+
+Bem-vindo ao meu repositório de **estudos de Desenvolvimento Web**! 🚀  
+Aqui eu organizo anotações, exercícios, projetos e experimentos feitos durante minha jornada de aprendizado em **HTML, CSS, JavaScript**, frameworks e tecnologias relacionadas ao desenvolvimento front-end e back-end.
+
+Este projeto não possui fins comerciais e foi criado apenas **para fins educacionais**.
+
+---
+
+
+## 📸 Demonstração
+
+<p align="center">
+  <img src="assets/img/sreen1.png" alt="Demonstração do Projeto" width="700"/>
+</p>
+<p align="center">
+  <img src="assets/img/screen2.png" alt="Demonstração do Projeto" width="700"/>
+</p>
+<p align="center">
+  <img src="assets/img/screen3.png" alt="Demonstração do Projeto" width="700"/>
+</p>
+
+[Senai-Page](https://senai-page.vercel.app/)
+
+---
+
+## 🚀 Tecnologias
+
+As seguintes ferramentas e tecnologias foram utilizadas na construção do projeto:
+
+#### **Frontend**
+- HTML
+- CSS
+
+
+---
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## 👨‍💻 Autor
+
+Feito por **Clecio Cawan Laurentino Silva**.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/clecio-cawan-3b5a5625b)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ClecioCawan)
