@@ -24,7 +24,9 @@ Este projeto não possui fins comerciais e foi criado apenas **para fins educaci
   <img src="assets/img/screen3.png" alt="Demonstração do Projeto" width="700"/>
 </p>
 
-[Senai-Page](https://senai-page.vercel.app/)
+[Aratec Informática modelo](https://landing-page-aratec-informatica-v3.vercel.app/)
+[Aratec Informática Primeira Versão](https://landing-page-aratec-informatica-v1-six.vercel.app/)
+[Aratec Informática Versão Final](https://landing-page-aratec-informatica-v1.vercel.app/)
 
 ---
 
